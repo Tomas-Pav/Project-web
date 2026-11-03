@@ -1,4 +1,25 @@
 <?php
 echo "<h1>about page</h1>";
+echo"<h2>nazev pocitace</h2>";
 $name ="herni_pc";
-echo "<h2>".$name."</h2>";
+echo $name;
+echo "<h2>model pocitace</h2>";
+$pocitac ="Lenovo";
+echo $pocitac;
+echo "<h2>veliskost ram</h2>";
+$age ="ram-16GB";
+echo $age;
+echo "<h2>velikost uloziste</h2>";
+$uloziste ="2TB";
+echo $uloziste;
+echo "<h2>ma ssd</h2>";
+$ssd ="hell nah";
+echo $ssd;
+echo "<h2>verze operacniho systemu</h2>";
+$opera ="win11";
+echo $opera;
+var_dump("name");
+var_dump("age");
+var_dump("uloziste");
+var_dump("ssd");
+var_dump("operacniho systemu");

@@ -1,9 +1,15 @@
 <?php
-$jidlo1="jablko";
-$jidlo2="hruska";
-$jidlo3="jahoda";
-$jidlo4="celer";
-$jidlo5="svestka";
-
-$jidlo =["jablko","hruska","jahoda","celer","svestka","kedlubna","repa","mrkev"];
-echo $jidlo[3];
+//ukol A
+$movies=["pirates of the carabean","dark knight","openheimer"."avenegrs"];
+echo $movies[0];
+echo $movies[3];
+$movies[]="davids adventures";
+echo "počet filmu v poli:" .count($movies);
+//ukol B
+echo"<ul>";
+foreach($movies as $movie1){
+    echo "<li>". htmlspecialchars($movie1)."</li>";
+}
+//ukol C
+$grades=[1,2,1,3,2,1,4];
+$sum=0;
